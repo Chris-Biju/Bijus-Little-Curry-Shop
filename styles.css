@@ -1,0 +1,506 @@
+footer{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    font-family: Montserrat;
+    text-align: center;
+    background-color:#ec9f05;
+}
+
+header{
+    left: -1%;
+    top: 100px;
+    width: 101.4%;
+}
+body{
+    margin: 0px;
+    background-color: #EEEDE7;
+}
+
+p{
+    font-size: 20px;
+}
+
+content{
+    font-family: Montserrat;
+    margin: 0px;
+    background-color: #FFE5B4;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    width:100%;
+    background-color: #FFE5B4;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Bodoni Moda;
+    font-weight: 900;
+    
+}
+
+h2{
+    padding-top: 20px;
+    margin-top: 0px;
+    font-family: Bodoni Moda;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+ul{
+    margin-top: 2px;
+}
+
+figcaption{
+    text-align: center; 
+    font-weight: bold;
+}
+
+figure{
+    display: inline-block;
+    height: 320px;
+}
+
+iframe{
+    margin-left: 2px;
+    width: 100%;
+    margin:0px;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+figure:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+figure:not(:hover){
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+@keyframes fade{
+    from {opacity 0.4}
+    to {opacity 1}
+}
+
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+@keyframes fadeInUp{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.para-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    background-color: #f5bb00;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.nav li{
+    font-weight: bold;
+    float:left;
+}
+
+.nav li:hover{
+    background-color: #fc763d;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.nav a{
+    padding: 30px;
+    display: block;
+    color: #07090F;
+    font-family: Bodoni Moda;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-div{
+    background-color: #EC9F05;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-div img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height:100px;
+    padding: 20px;
+
+}
+
+.title{
+    left: 50%;
+    border: 10px solid #EFEBE0;
+    border-radius: 10px;
+    background-color: rgba(7,9,15, 0.6);
+    color: #EFEBE0;
+    top: 50%;
+    left: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.parallax{
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    margin-top: 0px;
+    width:100%;
+}
+
+.home{
+    background-image: url("https://cdn.5280.com/2020/05/Bijus-Little-Curry-Shop_Denise-Mickelsen.jpg");
+}
+
+.menu-page{
+    background-image: url("https://codehs.com/uploads/8ab164edb7fc0f3f00d4badf9e4b8bec");
+}
+
+.about-us{
+    background-image: url("https://codehs.com/uploads/80380f00e9ee66ffbe1440a4ad476444");
+}
+
+.review{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+
+* {box-sizing: border-box}
+img {vertical-align: middle}
+
+.reviews{
+    text-align: center;
+}
+
+
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.mySlides img{
+    border-radius: 10px;
+}
+
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text{
+    color: #f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext{
+    color: #07090f;
+    font-size: 20px;
+    margin: 10px 12px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin 0 2px:
+    background-color: #EC9F05;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 10px;
+}
+
+.active, .dot:hover{
+    background-color: white;
+}
+.about-text{
+    margin: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #c3d2cc;
+}
+
+table, td{
+    border: 0px;    
+}
+
+tr{
+    border-radius: 10px;
+}
+
+td{
+   padding: 5px;
+   background-color: #c3d2cc;
+   text-align: center;
+}
+
+.day{
+    font-weight: bold;
+    background-color: #73c7ff;
+    text-align: center;
+}
+
+.tableh td{
+    background-color: #73c7ff;
+    font-weight:  bold;
+    text-align: center;
+}
+
+.name{
+    font-family: Bagel Fat One;
+}
+
+.item{
+    font-weight: bold;
+}
+
+.price{
+    float: right;
+    font-weight: bold;
+    right: 0px;
+    margin-right: 0px;
+}
+
+.menu-section{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.menu-section li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu-item{
+    display: inline-block;
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.menu-section img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.menu{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+hr{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}
+hr.divider{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+}
+
+.map{
+    margin: auto;
+}
+
+.about-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 80%;
+    align-content: center;
+    margin:auto;
+}
+
+
+.about-para div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.photos{
+    padding-top: 10px;
+    background-color: #FFE5B4;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.review-sec{
+    background-color: #c3d2cc;
+}
+
+.hours{
+    padding-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+.partner-head{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background-color: #f5bb00;
+}
+
+.partners{
+    text-align: center;
+}
+
+.partner img{
+    width:300px;
+    height: 300px;
+    border-radius:200px;
+}
+
+.partner figcaption{
+    margin-top: 20px;
+}
