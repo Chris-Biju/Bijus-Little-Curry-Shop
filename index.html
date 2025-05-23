@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Biju's Little Curry Shop</title>
+        <link rel = stylesheet type = text/css href = "styles.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        
+        <link rel = icon type = image/x-icon href =https://codehs.com/uploads/ed4e3edc1cdda606429dfd15af8a1c3c>
+        
+    </head>
+
+    <body>
+        <div class = nav-div>
+            <a href = index.html><img src = https://codehs.com/uploads/0668f344b4a1d5d08b26ba08a63440dd></a>
+            <ul class = nav>
+                <li> <a href = "index.html">Home</a> </li>
+                <li> <a href = menu.html>Menu</a> </li>
+                <li> <a href = about.html>About Us</a> </li>
+                <li> <a href = partners.html>Partners</a> </li>
+            </ul>
+        </div>
+        
+        <header>
+            <div class = "parallax home">
+                <div class = title>
+                    <h1> Biju's Little Curry Shop</h1>
+                </div>
+            </div>
+        </header>
+        <content>
+            <section class = para-text>
+                <h2>Welcome to the Little Curry Shop!</h2>
+                <p class = para-text>
+                    Welcome to Biju's Little Curry Shop!
+                    We are a fast casual indian restaurant with recipes inspired by the flavors of south India. <br> <br>
+                    The Little Curry Shop provides a unique take on Indian cusine with build your own curry bowls, biriyanis, and more! <br>
+                    We are a made from scratch, casual neighborhood restaurant serving fresh, bright and delicious
+    food inspired by the south of India. We have small batch beer and wine and plenty of room for kids and families.
+                </p>
+            </section>
+            <section class = photos>
+                <h2>Photos:</h2>
+                <div class = "slideshow-container">
+                    <div class = "mySlides fade">
+                        <div class = "numbertext">1/4 </div>
+                        <img src = https://s3-media0.fl.yelpcdn.com/bphoto/lfcDqdysfOqOk-4FJRSPBA/o.jpg style = width:100%>
+                        <div class = "text"></div>
+                    </div>
+                    <div class = "mySlides fade">
+                        <div class = "numbertext"> 2/4 </div>
+                        <img src = https://s3-media0.fl.yelpcdn.com/bphoto/658-Q6J8MzdmVleuTUM8sQ/o.jpg style = width:100%>
+                        <div class = "text"></div>
+                    </div>
+                    <div class = "mySlides fade">
+                        <div class = "numbertext"> 3/4 </div>
+                        <img src = https://s3-media0.fl.yelpcdn.com/bphoto/hLiXByX4BK_03ahbI4ldzA/o.jpg style = width:100%>
+                        <div class = "text"></div>
+                    </div>
+                    <div class = "mySlides fade">
+                        <div class = "numbertext"> 4/4 </div>
+                        <img src = https://s3-media0.fl.yelpcdn.com/bphoto/cqRiA4ygjH8MC9XJAj4Zlw/348s.jpg style = width:100%>
+                        <div class = "text"></div>
+                    </div>
+                    <a class = prev onclick = plusSlides(-1)> ❮ </a>
+                    <a class = next onclick = plusSlides(1)> ❯ </a>
+                </div>
+                <br>
+                
+                <div style = text-align:center>
+                    <span class = dot onclick="currentSlide(1)" style = "background-color: #EC9F05"></span>
+                    <span class = dot onclick="currentSlide(2)" style = "background-color: #EC9F05"></span>
+                    <span class = dot onclick="currentSlide(3)" style = "background-color: #EC9F05"></span>
+                </div>
+            </section>
+            <section class= review-sec>
+                <h2>Reviews</h2>
+                <div class = reviews>
+                    <figure>
+                        <div class = review>
+                            <a href = https://denver.eater.com/2015/3/27/8116761/reviews-bijus-little-curry-shop-rino> <img src= https://play-lh.googleusercontent.com/LKzJzJTmUXfNNIE-KdQ28njOfL-o1Yx1V8ZtBS5IIb3zRVvJBnN5xPqSavb590TJS9Y class = review class = review> </a>
+                            <figcaption class = review>Eater Denver</figcaption>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class = review>
+                            <a href = https://www.denverpost.com/2015/03/31/dining-review-bijus-little-curry-shop-offers-big-flavors-of-india/> <img src = data:image/png;base64,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 class = review></a>
+                            <figcaption>The Denver Post</figcaption>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class = review>
+                            <a href = https://www.tripadvisor.com/Restaurant_Review-g33388-d19384455-Reviews-Biju_s_Little_Curry_Shop-Denver_Colorado.html> <img src = data:image/png;base64,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 class = review></a>
+                            <figcaption>Tripadvisor</figcaption>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class = review>
+                            <a href = https://www.yelp.com/biz/bijus-little-curry-shop-denver-6> <img src = https://play-lh.googleusercontent.com/3bXqnPjZnVf9FmFsTNSvp2VquiXIKg2LQV7TADGeBSRJ6oHC_PLsWfBvCPtcDNq7ujZg class = review> </a>
+                            <figcaption>Yelp</figcaption>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+            
+            <section class = map>
+                <h2>Where to find us</h2>
+                <div style="width: 100%" class = map>
+                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1441%2026th%20St%20Denver,%20CO%2080205+(Biju's%20Little%20Curry%20Shop)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/personal-trackers/">Personl trackers</a>
+                    </iframe>
+                </div>
+            </section>
+            
+            <section class = hours>
+                <h2>Hours</h2>
+                <table border = 1>
+                    <thead>
+                        <tr class = tableh>
+                            <td>Day</td>
+                            <td>Lunch Hours</td>
+                            <td>Dinner Hours</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class = day>Sunday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class = day>Monday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class = day>Tuesday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class = day>Wednesday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class = day>Thursday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td  class = day>Friday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class = day>Saturday</td>
+                            <td>11:00 AM - 3:00 PM</td>
+                            <td>5:00 PM - 10:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+        </content>
+        <footer>
+            <span class = name>Biju's Little Curry Shop</span> <br>
+            All Rights Reserved © - Biju's Little Curry Shop
+            <br> <br>Citations:<br>
+            <a href = https://www.google.com/imgres?q=bijus%20little%20curry%20shop&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100065400483701&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FLittleCurryShop%2F&docid=uH8SZz7GsdgkBM&tbnid=sqlZhN2nGoItCM&vet=12ahUKEwjM84zU5KaNAxUVMtAFHcKbEEQQM3oECBsQAA..i&w=502&h=502&hcb=2&ved=2ahUKEwjM84zU5KaNAxUVMtAFHcKbEEQQM3oECBsQAA>Logo</a> <br>
+            <a href = https://www.yelp.com/biz/bijus-little-curry-shop-denver-6>Food photos</a><br>
+            <a href = https://www.google.com/imgres?q=bijus%20little%20curry%20shop&imgurl=https%3A%2F%2Fcdn.5280.com%2F2020%2F05%2FBijus-Little-Curry-Shop_Denise-Mickelsen.jpg&imgrefurl=https%3A%2F%2Fwww.5280.com%2Fbijus-little-curry-shop-is-closed-for-good%2F&docid=oeQG1vbWL8V_IM&tbnid=0_m7qD-GW74NaM&vet=12ahUKEwjM84zU5KaNAxUVMtAFHcKbEEQQM3oECBcQAA..i&w=1600&h=1200&hcb=2&ved=2ahUKEwjM84zU5KaNAxUVMtAFHcKbEEQQM3oECBcQAA>Header image</a>
+        </footer>
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            console.log("hi");
+            function plusSlides(n){
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n){
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n){
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if(n > slides.length) {slideIndex = 1}
+                if(n < 1) {slideIndex = slides.length}
+                for(i = 0; i < slides.length; i++){
+                    slides[i].style.display = "none";
+                }
+                
+                for (i = 0; i < dots.length; i++){
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className + " active";
+            }
+        </script>
+    </body>
+</html>
